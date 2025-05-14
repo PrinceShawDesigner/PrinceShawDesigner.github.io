@@ -52,7 +52,7 @@
                     <li>ABOUT</li>
                 </a>
             </ul>
-            <a href="https://www.instagram.com/prince_webdev?igsh=ZWdodGFkaDJsbzYw"><span class="hire">LET'S
+            <a href=#contact><span class="hire">LET'S
                     TALK</span></a>
         </nav>
     </header>
@@ -97,10 +97,10 @@
                             target="_blank"></a>
                 </div>
                 <div class="work-card">
-                    <a href="https://my-moon-website.netlify.app"><img src="assets/moon on sell.png" alt=""></a>
+                    <a href="https://anorix.netlify.app/"><img src="assets/anorix.png" alt=""></a>
                 </div>
-                 <div class="work-card">
-                    <a href="https://summer-music-festival-2025.netlify.app/"><img src="assets/summer festival.png" alt=""></a>
+                <div class="work-card">
+                    <a href="https://my-moon-website.netlify.app"><img src="assets/moon on sell.png" alt=""></a>
                 </div>
             </div>
         </section>
@@ -147,28 +147,21 @@
         <section class="conclusion">
             <h1>Lets's make your website shine</h1>
             <p>Premium web design, development and SEO servvices to help your business staand out.</p>
-            <a href="https://www.instagram.com/prince_webdev?igsh=ZWdodGFkaDJsbzYw"><span>GET IN TOUCH</span></a>
+            <a href=#contact><span>GET IN TOUCH</span></a>
         </section>
-        <form
-        action="https://formspree.io/f/mgvkanja"
-        method="POST"
-        >
-            <label>
-                name
-                <input name="name">
-            </label>
-                
-            <label>
-            Your email:
-            <input type="email" name="email">
-            </label>
-            <label>
-            Your message:
-            <textarea name="message"></textarea>
-            </label>
-            <!-- your other form fields go here -->
-            <button type="submit">Send</button>
-        </form>
+        <section class="contact" id="contact"> 
+            <h1>Contact Us</h1>
+            <form action="https://formspree.io/f/mgvkanja" method="POST">
+                <label for="name">Name : </label>
+                <input id="name" name="name" placeholder="Your name" required>
+                <label id="email"> Your email: </label>
+                <input id="email" type="email" name="email" placeholder="Your email" required>
+                <label for="message"> Your message: </label>
+                <textarea id="message" name="message" placeholder="Your message" required></textarea>
+                <!-- your other form fields go here -->
+                <button type="submit">Send</button>
+            </form>
+        </section>
     </main>
     <footer>
         Social Media
