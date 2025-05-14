@@ -431,6 +431,74 @@ nav ul li:hover {
     box-shadow: 0 5px 15px rgba(218, 197, 167, 0.2);
 }
 
+.contact {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact h1 {
+    font-family: sofia;
+    font-size: 4rem;
+    text-align: center;
+    max-width: 600px;
+    margin: 100px auto 20px;
+}
+
+form {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    color: var(--text-muted);
+    font-size: 1.5rem;
+}
+
+input{
+    padding: 15px;
+    border-radius: 6px;
+    border: 0.1px solid var(--border);
+    background-color: var(--bg-secondary);
+    color: var(--text-default);
+}
+
+textarea {
+    padding: 15px;
+    border-radius: 6px;
+    border: 0.1px solid var(--border);
+    background-color: var(--bg-secondary);
+    color: var(--text-default);
+}
+
+button{
+    background-color: var(--bg-muted);
+    color: var(--text-inverse);
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--bg-muted-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(218, 197, 167, 0.2);
+}
+
+@media screen and (max-width: 760px) {
+    form {
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+
 footer {
     background-color: var(--bg-secondary);
     border-top: 1px solid var(--border-hover);
